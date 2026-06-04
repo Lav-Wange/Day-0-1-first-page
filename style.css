@@ -54,28 +54,28 @@ h4 {
 }
 
 .card {
-  background: #c7a66a;  /* card2 has its own background */
+  background: #c7a66a;  
   padding: 280px;
   border-radius: 20px;
   margin-top: 24px;
   box-shadow: 0 7px 30px rgba(0, 0, 0, 0.25); 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth animation */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .card2{
   
-    background: #eadfcb;  /* card2 has its own background */
+    background: #eadfcb; 
   padding: 280px;
   border-radius: 20px;
   margin-top: 24px;
   box-shadow: 0 7px 30px rgba(0, 0, 0, 0.25); 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth animation */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 
 }
 
 /* Hover effect */
 .card:hover, .card2:hover {
-  transform: scale(1.05); /* slight size increase */
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35); /* stronger shadow */
+  transform: scale(1.05);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35); 
 }
 
